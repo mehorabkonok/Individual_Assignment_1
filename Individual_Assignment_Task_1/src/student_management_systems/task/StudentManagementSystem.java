@@ -146,7 +146,7 @@ public class StudentManagementSystem {
 			            }
 						
 					foundUpdate = true;
-					break;
+					}
 				}
 					
 
@@ -154,7 +154,7 @@ public class StudentManagementSystem {
 				if (!foundUpdate) { 
 					System.out.println("Student with ID " + updatedId + " not found.");
 					}
-				}
+				
 				
 				break;
 			
@@ -206,7 +206,7 @@ public class StudentManagementSystem {
 				System.out.println("Student added successfully! \n");
 				
 				// showing each student's information in distinct object
-				System.out.println("\n List of Students:");
+				System.out.println("List of Students:");
 				
 				// consider each student's info object as student from the list of all the added students which is studentList
 				for(Student student : studentList) {
